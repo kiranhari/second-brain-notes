@@ -1,0 +1,12 @@
+# Patterns of vault files/folders to leave OUT of the published site.
+# Edit this file any time; it's just a list of rsync exclude patterns
+# (same syntax as .gitignore). Re-run ./sync-and-publish.sh afterward.
+
+.obsidian
+.DS_Store
+*.base
+
+# Personal/example content, excluded by default. Remove a line below
+# to include that file in the published site.
+06-Daily-Notes/2026-11-18.md
+01-Projects/Gloss Local/
